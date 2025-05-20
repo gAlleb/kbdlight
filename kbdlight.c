@@ -3,7 +3,7 @@
 #include <string.h>
 #include <math.h>
 
-#define BLPATH		"/sys/class/leds/smc::kbd_backlight"
+#define BLPATH		"/sys/class/leds/spi::kbd_backlight"
 #define BLVALFILE	BLPATH "/brightness"
 #define BLMAXFILE	BLPATH "/max_brightness"
 #define BLCHANGE	16
